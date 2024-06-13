@@ -3,6 +3,7 @@
     <!-- Strings used for fragments for navigation -->
     <string name="connect">Connect</string>
     <string name="disconnect">Disconnect</string>
+    <string name="select_server">Select Server</string>
     <string-array name="servers">
         <item>US</item>
     </string-array>
