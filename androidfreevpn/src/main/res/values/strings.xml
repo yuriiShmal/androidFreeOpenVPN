@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">AndroidFreeVPN</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string-array name="servers">
+        <item>US</item>
+    </string-array>
 </resources>
