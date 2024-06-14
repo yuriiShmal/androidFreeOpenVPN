@@ -17,6 +17,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activities.ConnectingActivity"
+                  android:exported="true"/>
+        <activity android:name=".activities.ConnectedActivity"/>
+        <activity android:name=".activities.DisconnectedSummaryActivity" />
 
     </application>
 

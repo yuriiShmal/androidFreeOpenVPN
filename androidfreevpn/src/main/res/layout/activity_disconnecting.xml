@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -90,19 +89,21 @@
 
         <Button
             android:id="@+id/reconnect"
+            style="@style/Widget.MaterialComponents.Button.Icon"
             android:layout_width="288dp"
             android:layout_height="96dp"
             android:textSize="36sp"
             android:text="@string/reconnect"
-            style="@style/Widget.MaterialComponents.Button.Icon"
-            app:backgroundTint="#EBEBEB"
             android:textColor="#ff36b53b"
+            android:layout_marginTop="25dp"
+            android:onClick="tryReconnect"
+            app:backgroundTint="#EBEBEB"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.8"
-            android:layout_marginTop="25dp"/>
+            />
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <ImageButton
@@ -111,6 +112,7 @@
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:contentDescription="@string/back"
+        android:onClick="toConnections"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/baseline_arrow_back_24" />
