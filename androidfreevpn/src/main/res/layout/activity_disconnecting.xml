@@ -14,16 +14,16 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.189">
+        app:layout_constraintVertical_bias="0.1">
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:gravity="center"
+            android:textAlignment="center"
             android:text="@string/disconnected"
             android:textSize="32sp" />
 
@@ -31,7 +31,7 @@
             android:id="@+id/textViewConnected"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_marginTop="150dp"
+            android:layout_marginTop="50dp"
             android:gravity="center"
             android:text="@string/connectedCountry"
             android:textSize="22sp" />
@@ -87,6 +87,22 @@
                 app:layout_constraintVertical_bias="0.178" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <Button
+            android:id="@+id/reconnect"
+            android:layout_width="288dp"
+            android:layout_height="96dp"
+            android:textSize="36sp"
+            android:text="@string/reconnect"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            app:backgroundTint="#EBEBEB"
+            android:textColor="#ff36b53b"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.8"
+            android:layout_marginTop="25dp"/>
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <ImageButton

@@ -3,6 +3,7 @@
     <!-- Strings used for fragments for navigation -->
     <string name="connect">Connect</string>
     <string name="connecting">Connecting…</string>
+    <string name="reconnect">Reconnect</string>
     <string name="disconnect">Disconnect</string>
     <string name="disconnected">Disconnected</string>
     <string name="select_server">Select Server</string>
