@@ -1,4 +1,7 @@
 # androidFreeOpenVPN
+UPDATE: Due to difficulties with linking to ics-openvpn backend, this repo will be used purely for its ui functionality
+as I develop a direct derivative of ics-openvpn from a fork. 
+
 My attempt at building an android VPN app. Will eventually become a derivative of ics-openvpn
 because I am not touch the weeds of the network implementation of OpenVPN and integrating it
 into Android, I'd just screw it up.
